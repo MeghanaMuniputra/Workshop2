@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <title>Document</title>
+    <style>
+      *{
+        box-sizing: border-box;
+
+      }
+      
+      .row{
+
+        overflow: hidden;
+      }
+      
+      .image:hover{
+        transform: scale(0.95);
+        transition: all 2s;
+        transition-duration: 2s;
+        transition-delay:0;
+        overflow: hidden;
+        
+      }
+      .orange{
+        height:80vh;
+        background-color: rgba(242, 111, 10, 0.844);
+        margin-top:-65vh;
+      }
+      .black{
+        height:10vh;
+        background-color: #333333;
+        color:#fff;
+      }
+      @media screen and (max-width:460px){
+        .image{
+          display: block;
+          justify-items: center;
+          width:100%;
+     
+        }
+        .black{
+        height:5vh;
+        background-color: #333333;
+        color:#fff;
+      }
+      
+      }
+      
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand m-2 " href="#">
+            <img src="https://csite.nicepage.com/Images/logo-w.png" alt="" width="100" height="24">
+          </a>
+        </div>
+      </nav>
+      <h1 class="text text-center"><b>OUR PRODUCTS</b></h1>
+    <div class="container">
+      <div class="row ">
+        <div class="image col-4 p-3">
+          <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/60067c0411e15541880e3293/rre.jpg" data-bs-toggle="modal" data-bs-target="#box1" style="width:100%; height: 40vh;" alt="" >
+          
+        </div>
+        
+        <div class="image col-4 p-3">
+          <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/c1a914846ece539fab7e5b32/j.jpg" data-bs-toggle="modal" data-bs-target="#box2"style="width: 100%; height: 40vh;" alt="">
+        </div>
+        <div class="image col-4 p-3">
+          <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8d95eb12993a55918f0eac4e/trrt.jpg" data-bs-toggle="modal" data-bs-target="#box3"style="width: 100%; height: 40vh;" alt="">
+        </div>
+      </div>
+    <div class="row">
+      <div class="image col-4 p-3">
+      <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/87222a54c4795e00a497aee4/gh.jpg" data-bs-toggle="modal" data-bs-target="#box4" style="width: 100%; height: 40vh;"alt="">
+      </div>
+      <div class="image col-4 p-3">
+      <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/adb30bfc53ab5e469ddacf47/ghghe4.jpg" data-bs-toggle="modal" data-bs-target="#box5"style="width: 100%; height: 40vh;" alt="">
+      </div>
+      <div class="image col-4 p-3">
+      <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/fce79167d3fb51019c22c050/1.jpg" data-bs-toggle="modal" data-bs-target="#box6" style="width: 100%; height: 40vh;"alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="image col-4 p-3">
+      <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/3b11336c5ae8551288a07bf9/medium-shot-person-holding-bread.jpg" data-bs-toggle="modal" data-bs-target="#box7"style="width: 100%; height: 40vh;" alt="">
+      </div>
+      <div class="image col-4 p-3">
+      <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/7c58da9101dc5087a0c7fa8a/rustic-bread-wood-table-dark-wooden-background_155003-1681.jpg" data-bs-toggle="modal" data-bs-target="#box8"style="width: 100%; height: 40vh;"alt="">
+      </div>
+      <div class="image col-4 p-3">
+      <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/9765013a9a185d16adf414dd/b1182e8f-cee4-f571-00ff-b553b7f96898.jpg" data-bs-toggle="modal" data-bs-target="#box9"style="width: 100%; height: 40vh;"alt="">
+      </div>
+    </div>
+    </div>
+    <div class="orange"></div>
+    <div class="black d-flex justify-content-center gap-3 ">
+      <div class="bi bi-instagram"></div>
+      <div class="bi bi-linkedin"></div>
+      <div class="bi bi-twitter"></div>
+      <div class="bi bi-facebook"></div>
+  
+    </div>
+
+    <div class="modal bg-black" id="box1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/60067c0411e15541880e3293/rre.jpg"  alt="" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal bg-black" id="box2">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/c1a914846ece539fab7e5b32/j.jpg"  alt="" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal bg-black" id="box3">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8d95eb12993a55918f0eac4e/trrt.jpg"  alt="" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal bg-black" id="box4">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/87222a54c4795e00a497aee4/gh.jpg"  alt="" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal bg-black" id="box5">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/adb30bfc53ab5e469ddacf47/ghghe4.jpg"  alt="" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal bg-black" id="box6">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/fce79167d3fb51019c22c050/1.jpg"  alt="" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal bg-black" id="box7">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/3b11336c5ae8551288a07bf9/medium-shot-person-holding-bread.jpg"  alt="" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal bg-black" id="box8">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/7c58da9101dc5087a0c7fa8a/rustic-bread-wood-table-dark-wooden-background_155003-1681.jpg"  alt="" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal bg-black" id="box9">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/9765013a9a185d16adf414dd/b1182e8f-cee4-f571-00ff-b553b7f96898.jpg"  alt="" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+
+
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
